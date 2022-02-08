@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		608EECA2279EDFC900108DF8 /* MyFlutterBoostDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608EECA1279EDFC900108DF8 /* MyFlutterBoostDelegate.swift */; };
+		608EECA6279EE55200108DF8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 608EECA5279EE55200108DF8 /* ViewController.xib */; };
+		60BA8C9A279EDF2B001E1251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BA8C99279EDF2B001E1251 /* AppDelegate.swift */; };
+		60BA8C9C279EDF2B001E1251 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BA8C9B279EDF2B001E1251 /* SceneDelegate.swift */; };
+		60BA8C9E279EDF2B001E1251 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BA8C9D279EDF2B001E1251 /* ViewController.swift */; };
+		60BA8CA3279EDF2C001E1251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BA8CA2279EDF2C001E1251 /* Assets.xcassets */; };
+		60BA8CA6279EDF2C001E1251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BA8CA4279EDF2C001E1251 /* LaunchScreen.storyboard */; };
+		EB31288F291CB7E293C3C44A /* Pods_HyperTurboTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AB76FE5B56339772797C65 /* Pods_HyperTurboTouch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		393AF5791B62B6FCDFF526A7 /* Pods-HyperTurboTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperTurboTouch.release.xcconfig"; path = "Target Support Files/Pods-HyperTurboTouch/Pods-HyperTurboTouch.release.xcconfig"; sourceTree = "<group>"; };
+		608EECA1279EDFC900108DF8 /* MyFlutterBoostDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFlutterBoostDelegate.swift; sourceTree = "<group>"; };
+		608EECA5279EE55200108DF8 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		60BA8C96279EDF2B001E1251 /* HyperTurboTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperTurboTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BA8C99279EDF2B001E1251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60BA8C9B279EDF2B001E1251 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		60BA8C9D279EDF2B001E1251 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60BA8CA2279EDF2C001E1251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60BA8CA5279EDF2C001E1251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60BA8CA7279EDF2C001E1251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80AB76FE5B56339772797C65 /* Pods_HyperTurboTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperTurboTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F7B59CF1DBCA78BFE7A071 /* Pods-HyperTurboTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperTurboTouch.debug.xcconfig"; path = "Target Support Files/Pods-HyperTurboTouch/Pods-HyperTurboTouch.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60BA8C93279EDF2B001E1251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB31288F291CB7E293C3C44A /* Pods_HyperTurboTouch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31A7C9FC83A988E8AD033422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80AB76FE5B56339772797C65 /* Pods_HyperTurboTouch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60BA8C8D279EDF2B001E1251 = {
+			isa = PBXGroup;
+			children = (
+				60BA8C98279EDF2B001E1251 /* HyperTurboTouch */,
+				60BA8C97279EDF2B001E1251 /* Products */,
+				CB0B935727B35A65A86D916E /* Pods */,
+				31A7C9FC83A988E8AD033422 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60BA8C97279EDF2B001E1251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60BA8C96279EDF2B001E1251 /* HyperTurboTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60BA8C98279EDF2B001E1251 /* HyperTurboTouch */ = {
+			isa = PBXGroup;
+			children = (
+				60BA8C99279EDF2B001E1251 /* AppDelegate.swift */,
+				60BA8CA2279EDF2C001E1251 /* Assets.xcassets */,
+				60BA8CA7279EDF2C001E1251 /* Info.plist */,
+				60BA8CA4279EDF2C001E1251 /* LaunchScreen.storyboard */,
+				608EECA1279EDFC900108DF8 /* MyFlutterBoostDelegate.swift */,
+				60BA8C9B279EDF2B001E1251 /* SceneDelegate.swift */,
+				60BA8C9D279EDF2B001E1251 /* ViewController.swift */,
+				608EECA5279EE55200108DF8 /* ViewController.xib */,
+			);
+			path = HyperTurboTouch;
+			sourceTree = "<group>";
+		};
+		CB0B935727B35A65A86D916E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5F7B59CF1DBCA78BFE7A071 /* Pods-HyperTurboTouch.debug.xcconfig */,
+				393AF5791B62B6FCDFF526A7 /* Pods-HyperTurboTouch.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60BA8C95279EDF2B001E1251 /* HyperTurboTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BA8CAA279EDF2C001E1251 /* Build configuration list for PBXNativeTarget "HyperTurboTouch" */;
+			buildPhases = (
+				537304F18A4DDC76AFF4219C /* [CP] Check Pods Manifest.lock */,
+				00CF1B5A5AF530412F3A1A55 /* [CP-User] Run Flutter Build hyper_turbo Script */,
+				60BA8C92279EDF2B001E1251 /* Sources */,
+				60BA8C93279EDF2B001E1251 /* Frameworks */,
+				60BA8C94279EDF2B001E1251 /* Resources */,
+				98852F6A9EA8F1804BD926F9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HyperTurboTouch;
+			productName = HyperTurboTouch;
+			productReference = 60BA8C96279EDF2B001E1251 /* HyperTurboTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60BA8C8E279EDF2B001E1251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					60BA8C95279EDF2B001E1251 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 60BA8C91279EDF2B001E1251 /* Build configuration list for PBXProject "HyperTurboTouch" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60BA8C8D279EDF2B001E1251;
+			productRefGroup = 60BA8C97279EDF2B001E1251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60BA8C95279EDF2B001E1251 /* HyperTurboTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60BA8C94279EDF2B001E1251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BA8CA6279EDF2C001E1251 /* LaunchScreen.storyboard in Resources */,
+				60BA8CA3279EDF2C001E1251 /* Assets.xcassets in Resources */,
+				608EECA6279EE55200108DF8 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00CF1B5A5AF530412F3A1A55 /* [CP-User] Run Flutter Build hyper_turbo Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build hyper_turbo Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../hyper_turbo/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build\n";
+		};
+		537304F18A4DDC76AFF4219C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HyperTurboTouch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98852F6A9EA8F1804BD926F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyperTurboTouch/Pods-HyperTurboTouch-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HyperTurboTouch/Pods-HyperTurboTouch-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HyperTurboTouch/Pods-HyperTurboTouch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60BA8C92279EDF2B001E1251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BA8C9E279EDF2B001E1251 /* ViewController.swift in Sources */,
+				608EECA2279EDFC900108DF8 /* MyFlutterBoostDelegate.swift in Sources */,
+				60BA8C9A279EDF2B001E1251 /* AppDelegate.swift in Sources */,
+				60BA8C9C279EDF2B001E1251 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60BA8CA4279EDF2C001E1251 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60BA8CA5279EDF2C001E1251 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60BA8CA8279EDF2C001E1251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60BA8CA9279EDF2C001E1251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60BA8CAB279EDF2C001E1251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F7B59CF1DBCA78BFE7A071 /* Pods-HyperTurboTouch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LUL5WF528W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HyperTurboTouch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luizssb.HyperTurboTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60BA8CAC279EDF2C001E1251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393AF5791B62B6FCDFF526A7 /* Pods-HyperTurboTouch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LUL5WF528W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HyperTurboTouch/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luizssb.HyperTurboTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60BA8C91279EDF2B001E1251 /* Build configuration list for PBXProject "HyperTurboTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BA8CA8279EDF2C001E1251 /* Debug */,
+				60BA8CA9279EDF2C001E1251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BA8CAA279EDF2C001E1251 /* Build configuration list for PBXNativeTarget "HyperTurboTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BA8CAB279EDF2C001E1251 /* Debug */,
+				60BA8CAC279EDF2C001E1251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60BA8C8E279EDF2B001E1251 /* Project object */;
+}

@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_boost (0.0.2):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - flutter_boost
+  - hyper_turbo (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../hyper_turbo/.ios/Flutter/engine`)
+  - flutter_boost (from `../hyper_turbo/.ios/.symlinks/plugins/flutter_boost/ios`)
+  - FlutterPluginRegistrant (from `../hyper_turbo/.ios/Flutter/FlutterPluginRegistrant`)
+  - hyper_turbo (from `../hyper_turbo/.ios/Flutter`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../hyper_turbo/.ios/Flutter/engine"
+  flutter_boost:
+    :path: "../hyper_turbo/.ios/.symlinks/plugins/flutter_boost/ios"
+  FlutterPluginRegistrant:
+    :path: "../hyper_turbo/.ios/Flutter/FlutterPluginRegistrant"
+  hyper_turbo:
+    :path: "../hyper_turbo/.ios/Flutter"
+
+SPEC CHECKSUMS:
+  Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
+  flutter_boost: 6a73c54e5654df180c2cc379045b8cba9746fc8a
+  FlutterPluginRegistrant: 03a06fa5f754c611bb6c96f42acf9432e8c4515d
+  hyper_turbo: b0cf577f4ba74f32abeaf5d2c826dbc5a95d6c12
+
+PODFILE CHECKSUM: 0cbc6af62f598a780443fe8bb716778f88dd70b9
+
+COCOAPODS: 1.11.2
