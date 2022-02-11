@@ -54,6 +54,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func pushFlutter(_ sender: Any) {
+        // luizssb: requests FlutterBoost to present a Flutter page.
+        // Our `MyFlutterBoostDelegate` handles the native presentation
+        // of the ViewController itself, while the Flutter code handles the
+        // page.
         FlutterBoost.instance().open(
             "flutterPage",
             arguments: ["animated": true, "present": false],

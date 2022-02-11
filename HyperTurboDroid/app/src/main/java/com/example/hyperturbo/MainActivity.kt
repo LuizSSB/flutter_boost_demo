@@ -16,16 +16,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<View>(R.id.text_1).setOnClickListener {
-//            val params = emptyMap<String, Any>()
-//            val intent = FlutterBoostActivity.CachedEngineIntentBuilder(
-//                FlutterBoostActivity::class.java
-//            )
-//                .backgroundMode(FlutterActivityLaunchConfigs.BackgroundMode.opaque)
-//                .destroyEngineWithActivity(false)
-//                .url("flutterPage")
-//                .urlParams(params)
-//                .build(this)
-//            startActivity(intent)
+            // luizssb: requests FlutterBoost to present a Flutter page.
+            // The instance passed to FlutterBoost.setup handles the native
+            // presentation of the Activity itself, while the Flutter code
+            // handles the page itself.
             FlutterBoost.instance().open(
                 FlutterBoostRouteOptions.Builder()
                     .pageName("flutterPage")
@@ -35,21 +29,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<View>(R.id.text_2).setOnClickListener {
-//            val params = emptyMap<String, Any>()
-//            val intent = FlutterBoostActivity.CachedEngineIntentBuilder(
-//                FlutterBoostActivity::class.java
-//            )
-//                .backgroundMode(FlutterActivityLaunchConfigs.BackgroundMode.opaque)
-//                .destroyEngineWithActivity(false)
-//                .url("flutterPage")
-//                .urlParams(params)
-//                .build(this)
-//            startActivity(intent)
-//            startActivity(
-//                FlutterActivity
-//                    .withCachedEngine("flutter_boost_default_engine")
-//                    .build(this)
-//            )
             FlutterBoost.instance().open(
                 FlutterBoostRouteOptions.Builder()
                     .pageName("flutterPage2")

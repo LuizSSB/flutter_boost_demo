@@ -9,18 +9,19 @@ import com.idlefish.flutterboost.containers.FlutterBoostActivity
 import io.flutter.app.FlutterApplication
 import io.flutter.embedding.android.FlutterActivityLaunchConfigs
 
-
-/**
- * Created by luizssb on 14/01/22.
- *
- * @author rcosta
- */
+// luizssb: notice that the application got to inherit from `FlutterApplication`
 class MyApplication : FlutterApplication() {
     override fun onCreate() {
         super.onCreate()
+
+        // luizssb: initializes FlutterBoost
         FlutterBoost.instance().setup(
             this,
+
+            // luizssb: hamdles navigation from/to Flutter
             object : FlutterBoostDelegate {
+
+                // luizssb: handles navigation requests from Flutter
                 override fun pushNativeRoute(options: FlutterBoostRouteOptions?) {
                     val intent = Intent(
                         FlutterBoost.instance().currentActivity(),
@@ -29,6 +30,7 @@ class MyApplication : FlutterApplication() {
                     FlutterBoost.instance().currentActivity().startActivity(intent)
                 }
 
+                // luizssb: handles navigation request from the native side to display a Flutter page
                 override fun pushFlutterRoute(options: FlutterBoostRouteOptions?) {
                     val intent: Intent = FlutterBoostActivity.CachedEngineIntentBuilder(FlutterBoostActivity::class.java)
                         .backgroundMode(FlutterActivityLaunchConfigs.BackgroundMode.opaque)
@@ -40,7 +42,7 @@ class MyApplication : FlutterApplication() {
                 }
             },
             {
-
+                println("FlutterBoost is ON")
             }
         )
     }
